@@ -9,19 +9,19 @@
 
 include_recipe 'apt'
 
-package "ruby" do
+package 'ruby' do
   action :install
 end
 
-gem_package "review" do
+gem_package 'review' do
   action :install
 end
 
-package "texlive-lang-cjk" do
+package 'texlive-lang-cjk' do
   action :install
 end
 
-package "texlive-fonts-recommended" do
+package 'texlive-fonts-recommended' do
   action :install
 end
 
